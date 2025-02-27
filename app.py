@@ -36,6 +36,19 @@ st.subheader("press wisely")
 if st.button('press here to commit your eternal alliance to Shadow The Hedgehog'):
   st.write('Wonderful! He has forgiven all your sins')
 else:
-  st.write('Hes WAITING')
+  st.write('Go on....Hes Waiting for you...you wont like him when hes mad...')
+
+st.subheader("Seleccion")
+in_mod = st.selectbox(
+  "Choose....",
+  ("Audio","Visual","Haptic"),
+)
+if in_mod == "Audio":
+  set_mod = "Play Audio"
+elif in_mod == "Visual":
+  set_mod = "Play Video"
+elif in_mod == "Haptic":
+  set_mod = "Vibrate"
+st.write("Now Doing:", set_mod)
 
   
