@@ -31,4 +31,11 @@ with col2:
     st.write('Why yes, he does have a stellar voice, we all enjoy listening to him')
   if mode == 'Touch':
     st.write('Naughty Naughty!!! he might bite! >D')
+
+st.subheader("press wisely")
+if st.button('press here to commit your eternal alliance to Shadow The Hedgehog'):
+  st.write('Wonderful! He has forgiven all your sins')
+else:
+  st.write('Hes WAITING')
+
   
